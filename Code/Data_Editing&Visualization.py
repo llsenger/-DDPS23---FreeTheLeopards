@@ -112,3 +112,38 @@ len(tweets_for_annotation)
 
 #export as csv
 tweets_for_annotation.to_csv('./my_drive/MyDrive/twitter/data/tweets_for_annotation.csv')
+
+"""## Create Visualization of the saliency over time in the BT, on Twitter and compare them with actual policy changes"""
+
+# Import qualitatively created List of BRT 
+ds_d = pd.read_excel("/content/drive/MyDrive/decision_timeline.xlsx")
+# Reimport Bundestag data
+ds_b = pd.read_excel("/content/drive/MyDrive/BT_final.xlsx")
+# Reimport the final twitter data
+ds_t = pd.read_excel("//content/drive/MyDrive/final_t.xlsx")
+
+# Normalizing twitter and BT data to be able to plot it in the same graph
+normalized_t=(ds_t["count"]-ds_t["count"].min())/(ds_t["count"].max()-ds_t["count"].min())
+ds_t["count"] = normalized_t
+
+normalized_b=(ds_b["sum"]-ds_b["sum"].min())/(ds_b["sum"].max()-ds_b["sum"].min())
+ds_b["sum"] = normalized_b
+
+# Create Datetime values
+ds_d.date = pd.to_datetime(ds_d.date)
+ds_b.date = pd.to_datetime(ds_b.date)
+ds_t.date = pd.to_datetime(ds_t.date)
+
+# Create graph
+plt.figure(figsize=(13,5))
+plt.xlabel("Date")
+plt.ylabel("Salience")
+plt.title("German Weapons Deliveries and Saliency in Discussion, Bundestag and Twitter")
+plt.xticks(ds_d.date, ds_d.event, rotation=90)
+sns.lineplot(x=ds_b.date, y=ds_b["sum"], color="indianred")
+sns.lineplot(x=ds_t.date, y= ds_t["count"])
+plt.grid(axis="x", lw=4, alpha=0.2)
+plt.show()
+
+# Export in high Quality
+plt.savefig("/mnt/ramdisk/bundestag_gaph.png", dpi=300, bbox_inches='tight')
