@@ -147,3 +147,43 @@ plt.show()
 
 # Export in high Quality
 plt.savefig("/mnt/ramdisk/bundestag_gaph.png", dpi=300, bbox_inches='tight')
+
+"""## Create Wordcloud"""
+
+!pip install stop_words
+from os import path
+from PIL import Image
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import matplotlib.pyplot as plt
+from stop_words import get_stop_words
+
+# Create a dataset for positive and one for negatively annotated tweets
+tweets = pd.read_csv("/content/my_drive/MyDrive/DDPS-Project (1)/twitter/data/annotated/annotated_concat_final.csv")
+tweets_neg = tweets.loc[tweets["annotation"]== 0]
+tweets_pos = tweets.loc[tweets["annotation"]== 1]
+
+# Join data cells together and clean stop words
+text_neg = " ".join(review for review in tweets_neg.text_clean)
+text_pos = " ".join(review for review in tweets_pos.text_clean)
+
+stop_words = get_stop_words('german')
+len(stop_words)
+
+# Adding the specific stop words that are part of every query
+stop_words.update(("waffenlieferungen", "ukraine", "waffen"))
+
+# Create Wordcloud negativ
+wordcloud = WordCloud(stopwords=stop_words, background_color="white").generate(text_neg)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+# Export
+plt.savefig("/content/worcloud_neg.png", dpi=300)
+
+# Create Wordcloud negativ
+wordcloud = WordCloud(stopwords=stop_words, background_color="white").generate(text_pos)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+# Export
+plt.savefig("/content/worcloud_pos.png", dpi=300)
