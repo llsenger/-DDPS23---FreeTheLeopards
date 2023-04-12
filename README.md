@@ -41,12 +41,13 @@ A second strand of literature informing our project and complementing the litera
 # Hypotheses
 From the theory outlined above and drawing on vote-seeking theories and the finding by Barbera et al that "legislators are more likely to follow, than to lead, discussion of public issues" (XX) we derive the following three hypotheses: 
 
-*H1: The supply of weapons is precedented by an increase in salience of the topic in the Bundestag.*
-*H2: The supply of weapons is precedented by an increase of approval of the delivery on Twitter.*
+> *H1: The supply of weapons is precedented by an increase in salience of the topic in the Bundestag.*
+ 
+> *H2: The supply of weapons is precedented by an increase of approval of the delivery on Twitter.*
 
 Furthermore, we are also interested in the dynamics between the discourse on Twitter and the discourse in the German Bundestag. 
 
-*H3: The increase in salience of the supply of weapons in the German Bundestag is precedented by the approval of the delivery on Twitter.*
+> *H3: The increase in salience of the supply of weapons in the German Bundestag is precedented by the approval of the delivery on Twitter.*
 
 # Data
 To test our hypotheses, we used three main sources as data: Twitter, the plenary debates for the German Bundestag and the information on the German governmental decisions to supply weapons to Ukraine. 
