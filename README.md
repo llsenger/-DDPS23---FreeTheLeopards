@@ -63,7 +63,8 @@ For the collection of the relevant tweets we used the twitter explorer, created 
 
 We concatenated the four objects to one panda object. We dropped all tweets that were duplicates, which reduced the number to 820,028 and then limited our dataset to tweets that had more than 4 (i.e., at least 5) retweets, following the from discursive institutionalism theoretically derived focus on the coordinative discourse by the main political actors. This left us with 23,210 tweets (the reason why we did not directly limit the search query for tweets with retweet > 4 is that we wanted to the full data, with the potential to later derive different subsets (which we did not do in the end). Since despite the limitation to lang:de the dataset encompassed non-German tweets, we dropped all those, which resulted in a total of 19,318 tweets. We then cleaned the tweet's texts by excluding ASCII-characters, tabs and URLs, since we expected this to improve the performance of the classifier.  
  
-(FELIX): Bundestag wleche daten + was du alles damit angestellt hast (PDF). 
+As the Bundestag is a working parliament (“Arbeitsparlament”), thus, most work happens in the non-public committees. For this reason, the speeches in the general assembly are specifically geared towards the public (Geuß, 2021). We thus decided that these speeches would be a good source to examine the parliamentary discourse.
+While the Bundestag offers a REST-API, it only allows for a full-text search on its website. Hence, we decided not to use the API as such, but scrape all plenary speeches of the 20th election period (since 2021). Unfortunately, these are only available as .pdf or .xml files, which prevents direct automated analysis. To get the speeches in a usable format, we were luckily able to build on the “Open-Discourse” project (Richter et al., 2021). 
 
 # Methods
 To be able to classify the tweets as taking a positive or negative stand, or being neutral (news tweets for instance), we trained a classifier based on *xlmroberta*, a multi-language model that is also suited for German. To this end we annotated around 1500 tweets as 0 (negative), 1 (positive) or 2 (neutral). There were several borderline cases for which we defined the following two coding specifications: 
@@ -76,13 +77,14 @@ To be able to classify the tweets as taking a positive or negative stand, or bei
 
 Given limited ressources, we were not able to do a reliability test for the whole dataset, yet a brief interpersonal test showed that the annotation done by one of us was sufficiently reliable and comprehensible. 
 
-The annotated data was then split into one training and one testing dataset, which was then used to train and test the classifier. Since we ran into a cuda error when using google colab, we adjusted several things for (FELIX). 
+The annotated data was then split into one training and one testing dataset, which was then used to train and test the classifier. Since we ran into a cuda error when using google colab, we adjusted several factors, including using a CPU-based runtime and different combinations of versions of different packages.
  
-FELIX: Salience vom Bundestag
+For the Bundestag data, we opted for a simple frequency count. After extracting and cleaning all speeches, they were grouped together for each day. The same queries used to scrape the Twitter data were than used to create a matrix that contains the frequency of every category of keywords (e.g. ["iris", "irist", "iristslm", "tslm", "patriot", "flugabwehrsystem"] for the IRIS-SLM anti-air system) for every day.
+This gives us the opportunity to trace the salience of single decisions for weapon systems for future research. For the graphs shown below the sum of all keywords was used, as this corresponds to the frequency count used for the Twitter data.
 
 # Results
  
-             "              precision    recall  f1-score   support
+                            precision    recall  f1-score   support
             
                        0       0.00      0.00      0.00        26
                        1       0.67      1.00      0.80        52
