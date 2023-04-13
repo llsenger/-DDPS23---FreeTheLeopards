@@ -82,16 +82,15 @@ FELIX: Salience vom Bundestag
 
 # Results
  
-             "              precision    recall  f1-score   support\n",
-            "\n",
-            "           0       0.00      0.00      0.00        26\n",
-            "           1       0.67      1.00      0.80        52\n",
-            "           2       1.00      1.00      1.00        38\n",
-            "\n",
-            "    accuracy                           0.78       116\n",
-            "   macro avg       0.56      0.67      0.60       116\n",
-            "weighted avg       0.63      0.78      0.69       116\n",
-            "\n",
+             "              precision    recall  f1-score   support
+            
+                       0       0.00      0.00      0.00        26
+                       1       0.67      1.00      0.80        52
+                       2       1.00      1.00      1.00        38
+            
+                accuracy                           0.78       116
+               macro avg       0.56      0.67      0.60       116
+            weighted avg       0.63      0.78      0.69       116
 
 As a workaround, instead of using the amount of tweets with a positive stand towards the supply of weapons, we used the development of the total amount of tweets to proxy for the intensity of the discourse on Twitter, assuming that a stronger discussion, that is, higher salience, increases the public pressure on decision-makers. Consequently, our second hypothesis changed to: 
 
