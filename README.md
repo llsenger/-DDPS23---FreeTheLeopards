@@ -6,7 +6,7 @@ _April 13, 2023_
 
 This repository summarizes the findings and provides the code of our project for the CIVICA course "Diving in the Digital Public Space" taught by Prof. Jean-Philippe Cointet (_Sciences Po_), Prof. Marton Karsai (_Central European University_), and Armin Pournaki (_Sciences Po_).
 
-Team Members: ***Felix Walther***, candidate for the _Master in Public Policy_ in the Policy Stream _xxxx_ and ***Leon Senger***, candidate for the _Master in Public Policy_ in the Policy Stream _Politics and Public Policy_, both at _Sciences Po, Paris_ at the _School of Public Affairs_.
+Team Members: ***Felix Walther***, candidate for the _Master in Public Policy_ in the Policy Stream _Energy, Environment and Sustainability_ and ***Leon Senger***, candidate for the _Master in Public Policy_ in the Policy Stream _Politics and Public Policy_, both at _Sciences Po, Paris_ at the _School of Public Affairs_.
 
 
 ***Research Question***: *How did the Twitter and parliamentary discourses about supplying weapons interact with each other and with the decisions to supply them?*
