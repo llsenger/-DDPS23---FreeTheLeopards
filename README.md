@@ -119,11 +119,11 @@ To summarize our results, despite imperfect patterns, we found some support for 
 
 # Bibliography
  
-Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzmán, F., Grave, E., Ott, M., Zettlemoyer, L., & Stoyanov, V. (2020). Unsupervised Cross-lingual Representation Learning at Scale (arXiv:1911.02116). arXiv. https://doi.org/10.48550/arXiv.1911.02116  
+- Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzmán, F., Grave, E., Ott, M., Zettlemoyer, L., & Stoyanov, V. (2020). Unsupervised Cross-lingual Representation Learning at Scale (arXiv:1911.02116). arXiv. https://doi.org/10.48550/arXiv.1911.02116  
 Gahrte, J. (2023, March). Joh-ga/german-tweetstance-bert-uncased-russiaukrainewar · Hugging Face. https://huggingface.co/joh-ga/german-tweetstance-bert-uncased-russiaukrainewar  
-Geuß, A. (2021). Das Parlament als Kommunikationsarena: Öffentlichkeitsebenen und Kommunikationsmuster in Plenardebatten des Deutschen Bundestags. https://doi.org/10.20378/irb-51447  
-Guhr, O., Bahrmann, F., Schumann, A.-K., & Böhme, H.-J. (2020, May 15). Training a Broad-Coverage German Sentiment Classification Model for Dialog Systems. http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.202.pdf  
-Richter, F., Koch, P., Franke, O., Kraus, J., Kuruc, F., Thiem, A., Högerl, J., Heine, S., & Schöps, K. (2021). Open Discourse [Data set]. https://doi.org/10.7910/DVN/FIKIBO  
+- Geuß, A. (2021). Das Parlament als Kommunikationsarena: Öffentlichkeitsebenen und Kommunikationsmuster in Plenardebatten des Deutschen Bundestags. https://doi.org/10.20378/irb-51447  
+- Guhr, O., Bahrmann, F., Schumann, A.-K., & Böhme, H.-J. (2020, May 15). Training a Broad-Coverage German Sentiment Classification Model for Dialog Systems. http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.202.pdf  
+- Richter, F., Koch, P., Franke, O., Kraus, J., Kuruc, F., Thiem, A., Högerl, J., Heine, S., & Schöps, K. (2021). Open Discourse [Data set]. https://doi.org/10.7910/DVN/FIKIBO  
 
 
 
