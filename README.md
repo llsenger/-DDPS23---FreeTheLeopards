@@ -16,17 +16,18 @@ On 27 February 2022, only three days after the invasion of Ukraine by Russia, Ge
 
 _"We are living through a watershed era. And that means that the world afterwards will no longer be the same as the world before. The issue at the heart of this is whether power is allowed to prevail over the law. Whether we permit Putin to turn back the clock to the nineteenth century and the age of the great powers. Or whether we have it in us to keep warmongers like Putin in check. That requires strength of our own."_
 
-As a consequence, he announced massive investments in the German military. At the same time, he overthrew the decades-old German foreign policy rule, reading: *no armaments to war zones*, by sending 1,000 anti-tank weapons and 500 Stinger missiles to Ukraine. This was the starting point for an increasing engagement of the German government in terms of weapons supply to Ukraine, leading to the delivery of more serious weapons over time. Yet, Scholz was criticized for being too hesitant in supporting Ukraine, too slow with his decisions on delivering weapons, and particularly combat tanks (the Chair of the Committee on European Union Affairs, Anton Hofreiter, for instance, already called for a supply of combat tanks in April 2022): 
+As a consequence, he announced massive investments in the German military. At the same time, he overthrew the decades-old German foreign policy rule, reading: *no armaments to war zones*, by sending 1,000 anti-tank weapons and 500 Stinger missiles to Ukraine. This was the starting point for an increasing engagement of the German government in terms of weapons supply to Ukraine, leading to the delivery of more serious weapons over time: in April, Germany sent flak tanks as defensive weapons, in Mai howitzers were delivered and in June, Scholz announced the supply of the state-of-the-art air defense system Iris-T SLM. Despite this engagement, Scholz was criticized for being too hesitant in supporting Ukraine, too slow with his decisions on delivering weapons, and particularly combat tanks. The Chair of the Committee on European Union Affairs, Anton Hofreiter, for instance, already called for a supply of combat tanks in April 2022: 
 
 /Picture of Tweet.
 
+Similarly, Annalena Baerbock, the German Foreign Minister, publicly called for the supply of Leopard II combat tanks in mid-september (XX). These prominent figures were backed by an ongoing and rich discussion in the news, but importantly also on Twitter. Yet, it took until January 2023 that Scholz decided, after having convinced the US to supply tanks on their part, to free the way for German Leopard II tanks delivery to Ukraine. 
 
+With this decision, the last taboo regarding supplying armaments to war zones was overcome and the major shift in the German Defence and Security Policy had come to a preliminary peak. 
 
+In this project, we were interested in how different public discourses - namely the discourse on Twitter and the discourse in the German Bundestag - are related to the decisions: did the two discourses precedent or follow the decisions? And did Twitter or the German Bundestag set the direction of the discussion? These are the questions which we tried to answer in this project, summarized in the above mentioned research question. 
 
-finally resulting in the supply of combat tanks (Leopard II) in January 2023
-
- 
-
+This report is structured as follows: First, we are going to give a brief overview of the theory in this field to then use it to derive three hypotheses which we want to test. Second, we describe the data we used, to then move on to the methods we deployed. After that we present the results and discuss the limitations, also sketching what future research could investigate in this question. The report ends with a conclusion. 
+/Picture of Tweet.
 
 
 # Theory
