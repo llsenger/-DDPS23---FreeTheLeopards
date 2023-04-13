@@ -96,7 +96,7 @@ This gives us the opportunity to trace the salience of single decisions for weap
 
 As a workaround, instead of using the amount of tweets with a positive stand towards the supply of weapons, we used the development of the total amount of tweets to proxy for the intensity of the discourse on Twitter, assuming that a stronger discussion, that is, higher salience, increases the public pressure on decision-makers. Consequently, our second hypothesis changed to: 
 
-*H2': The supply of weapons is precedented by an increase in salience of the topic on Twitter.*
+> *H2': The supply of weapons is precedented by an increase in salience of the topic on Twitter.*
 
 To test our hypotheses, we plot the graphs indicating the salience of the topic in the German Bundestag (red line) and the salience of the topic on Twitter (blue line) on the timeline on the decisions (grey bars in the background). 
 
