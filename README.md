@@ -56,24 +56,3 @@ To test our hypotheses, we used three main sources as data: Twitter, the plenary
 <ins>**Twitter**<ins>
 
 Using the Twitter API, we 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Markdown 5446 bytes 840 words 77 lines Ln 24, Col 0HTML 4441 characters 836 words 27 paragraphs
