@@ -129,7 +129,7 @@ Second, an interesting option to enrich the data would be to scrape newspaper op
 
 Finally, a network analysis, starting from Twitter but from there also taking the speakers of the Bundestag into account, could be very fruitful. Potential questions to be answered could be: Which actors push the agenda on Twitter and in the German Bundestag? Are there clear connections between the actors on Twitter and the politicians in the German Bundestag? This could provide insight into how social media is impacting political discourse in Germany and further shed light on the question who actually sets the agenda and potentially generates public pressure.
  
-# Conclusion
+# Conclusion 
  
  
 
