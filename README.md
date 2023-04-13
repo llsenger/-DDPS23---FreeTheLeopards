@@ -131,7 +131,7 @@ Finally, a network analysis, starting from Twitter but from there also taking th
  
 # Conclusion 
  
- 
+This project was formed around the major policy shift in German Defense and Security policy and aimed at answering the question how the discourses on Twitter and in the German parliament interacted with each other and particularly with the decisions by the German government under Chancellor Scholz to supply weapons to Ukraine. Based on agenda setting theory and discursive institutionalism, we hypothesized that the discourses on twitter influenced the discourse in the German Bundestag, while both discourses precedented the decisions taken by the German government. We indeed found patterns in favor of these hypotheses, yet without a clear-directional trend. This, however, could be a function of the aggregate level at which we analyzed the data, such that there is room for promising future research, taking advantage of higher segregation the data would theoretically allow. Our project has shown that the question around who set the agenda for one of the greatest policy shifts in German policy in the past years is worth to be investigated. 
 
 
 # Bibliography
