@@ -116,6 +116,23 @@ To test hypothesis H2' we take the same approach as for the first hypothesis. Th
 Finally we test Hypothesis 3 by comparing the peaks of the discourse on Twitter with those of the discourse on the Bundestag. While on the graph also no cristal clear picture arises, it seems safe to say that generally the Twitter discourse happend to peak before the discourse in the Bundestag, suggesting an influence of the discourse on Twitter's salience on the topics the Bundestag discusses, which is in line with the finding by Barbera et al (XX). 
 
 To summarize our results, despite imperfect patterns, we found some support for all our hypotheses, indicating that indeed there is a tendency of the decisions to be precedented by an increase in salience on both Twitter and in the German Bundestag with regard to the topic of weapons supply, and a remarkable impact of the Twitter discourse on the German Bundestag's discussions. However, obviously, these findings derived from a graph cannot be seen as very robust. In the following section we therefore briefly discuss our limitations and outline what future research dealing with exactly this topic could pursue. 
+ 
+# Limitations and Future Research
+ 
+The are a few limitations that have to be taken into account. First of all, the annotation of the data was not interpersonal. Second, our classifier did not work, independent of the models used, which was most likely due to a too low number of annotated tweets which in turn was caused by our limited ressources. This resulted in a quite unspecific data, summarizing all discourse around weapons supply without distinguishing between positive and negative attitudes. That the major limitation of our project lies in the fact that our graphical approach does not allow for any causality claims: the correlation we found does not allow for deeper interpretation, such that we cannot claim that public discourse decisively influenced the decisions of the German government. A statistical investigation based on vector autoregression models, which would have been suitable in that regard, was not possible because of the low number of decisions. 
+
+Next to adressing these limitations, there are several further paths for future research that might be worth exploring. 
+
+First of all, the data could be subdivided according to the different discourses around different weapons, which could potentially unearth patterns that are not visible in the unspecified data: potentially there could be certain weapons supply decision that are indeed clearly precedented by the weapon specific discourse on Twitter and in the German Bundestag. 
+
+Second, an interesting option to enrich the data would be to scrape newspaper opinion pieces and to train a classifier (of course, next to getting our Twitter classifier to work) to label them as supportive of or cautioning against weapons delivery. This would allow to investigate the in our project so far neglected dimension of the impact of traditional media, which is usually deemed to be crucial for agenda setting.
+
+Finally, a network analysis, starting from Twitter but from there also taking the speakers of the Bundestag into account, could be very fruitful. Potential questions to be answered could be: Which actors push the agenda on Twitter and in the German Bundestag? Are there clear connections between the actors on Twitter and the politicians in the German Bundestag? This could provide insight into how social media is impacting political discourse in Germany and further shed light on the question who actually sets the agenda and potentially generates public pressure.
+ 
+# Conclusion
+ 
+ 
+
 
 # Bibliography
  
