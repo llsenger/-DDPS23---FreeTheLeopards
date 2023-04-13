@@ -84,6 +84,9 @@ This gives us the opportunity to trace the salience of single decisions for weap
 
 # Results
  
+ We planned on using XLM-RoBERTa model (Conneau et al., 2020) which is based on Facebook’s RoBERTa model, which itself is an improved version of the original BERT model. XLM-RoBERTa is a multilingual model, which was necessary due to using only German-speaking tweets. It additionally has significantly higher performance than the original model (ibid.). 
+The best score the model could achieve after training and testing it on different subsections of our 1500 manually annotated tweets and further cleaning the data is the following:
+ 
                             precision    recall  f1-score   support
             
                        0       0.00      0.00      0.00        26
@@ -93,6 +96,12 @@ This gives us the opportunity to trace the salience of single decisions for weap
                 accuracy                           0.78       116
                macro avg       0.56      0.67      0.60       116
             weighted avg       0.63      0.78      0.69       116
+ 
+The model had a heavy bias for classifying tweets as having no position on deliveries (2), while having a meager performance for supportive positions (1) and not classifying any tweets as opposing to the deliveries (0).
+ 
+As we could not achieve further improvements without annotating significantly more tweets, we turned to two alternative models, the first being “German Sentiment Bert” (Guhr et al., 2020). This model was pre-trained on German-speaking data from social media for sentiment analysis. We trained the model with our data, but the classification results were too inaccurate for further use. as the model - in most instances somewhat accurately - classified almost all tweets as having a negative sentiment. As this is quite pertinent in our data for both sides, this attempt proved to be a cul de sac.
+ 
+Second, we found a model pre-trained on stances in the Ukraine war (Gahrte, 2023). However, after fine tuning on our data, the classifier had a very heavy bias on classifying tweets as supportive while almost never detecting opposing stands. Again, these results were deemed to be unusable for further analysis.
 
 As a workaround, instead of using the amount of tweets with a positive stand towards the supply of weapons, we used the development of the total amount of tweets to proxy for the intensity of the discourse on Twitter, assuming that a stronger discussion, that is, higher salience, increases the public pressure on decision-makers. Consequently, our second hypothesis changed to: 
 
@@ -108,6 +117,13 @@ Finally we test Hypothesis 3 by comparing the peaks of the discourse on Twitter 
 
 To summarize our results, despite imperfect patterns, we found some support for all our hypotheses, indicating that indeed there is a tendency of the decisions to be precedented by an increase in salience on both Twitter and in the German Bundestag with regard to the topic of weapons supply, and a remarkable impact of the Twitter discourse on the German Bundestag's discussions. However, obviously, these findings derived from a graph cannot be seen as very robust. In the following section we therefore briefly discuss our limitations and outline what future research dealing with exactly this topic could pursue. 
 
+# Bibliography
+ 
+Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzmán, F., Grave, E., Ott, M., Zettlemoyer, L., & Stoyanov, V. (2020). Unsupervised Cross-lingual Representation Learning at Scale (arXiv:1911.02116). arXiv. https://doi.org/10.48550/arXiv.1911.02116
+Gahrte, J. (2023, March). Joh-ga/german-tweetstance-bert-uncased-russiaukrainewar · Hugging Face. https://huggingface.co/joh-ga/german-tweetstance-bert-uncased-russiaukrainewar
+Geuß, A. (2021). Das Parlament als Kommunikationsarena: Öffentlichkeitsebenen und Kommunikationsmuster in Plenardebatten des Deutschen Bundestags. https://doi.org/10.20378/irb-51447
+Guhr, O., Bahrmann, F., Schumann, A.-K., & Böhme, H.-J. (2020, May 15). Training a Broad-Coverage German Sentiment Classification Model for Dialog Systems. http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.202.pdf
+Richter, F., Koch, P., Franke, O., Kraus, J., Kuruc, F., Thiem, A., Högerl, J., Heine, S., & Schöps, K. (2021). Open Discourse [Data set]. https://doi.org/10.7910/DVN/FIKIBO
 
 
 
