@@ -1,6 +1,6 @@
 ![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/9481ad2e00e5ba94bc5fac17fa77833bd6ec2dfa/%23freetheleopards_image.png?raw=true)
 
-***The Discourse Around the Shift of  Germany’s Arms Supply Policy***
+# ***The Discourse Around the Shift of  Germany’s Arms Supply Policy***
 
 _April 13, 2023_
 
