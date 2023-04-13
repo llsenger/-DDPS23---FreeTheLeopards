@@ -62,6 +62,8 @@ To identify the decisions with regard to the supply of different weapons, we per
 For the collection of the relevant tweets we used the twitter explorer, created by Armin Pournaki, which accesses Twitter via Twitter's v2-API. To identify the relevant terms that should be included in our search query, we qualitatively analyzed German newspaper articles as well as tweets over the period February 2022 until March 2023, generating an encompassing list of terms that are commonly used to refer to the arms supply by Germany. We complemented this list by spelling errors and abbreviations, such that in total we came up with 106 terms. Since the maximum length of a search query is limited to 1024 characters, this resulted in four separate search queries, which had the following structure, also restricting the tweets to German tweets: (((<*term 1* > OR < *term 2* > OR ... OR < *term n-1*> OR < *term n* >) AND Ukraine) lang:de). We limited the period of time from 01. January 2022 (to also see how the discussion developed before the invasion on February 24, 2022) to March 26, 2023. In total, this resulted in the download of 2,098,252 tweets. 
 
 We concatenated the four objects to one panda object. We dropped all tweets that were duplicates, which reduced the number to 820,028 and then limited our dataset to tweets that had more than 4 (i.e., at least 5) retweets, following the from discursive institutionalism theoretically derived focus on the coordinative discourse by the main political actors. This left us with 23,210 tweets (the reason why we did not directly limit the search query for tweets with retweet > 4 is that we wanted to the full data, with the potential to later derive different subsets (which we did not do in the end). Since despite the limitation to lang:de the dataset encompassed non-German tweets, we dropped all those, which resulted in a total of 19,318 tweets. We then cleaned the tweet's texts by excluding ASCII-characters, tabs and URLs, since we expected this to improve the performance of the classifier.  
+ 
+(FELIX): Bundestag wleche daten + was du alles damit angestellt hast (PDF). 
 
 # Methods
 To be able to classify the tweets as taking a positive or negative stand, or being neutral (news tweets for instance), we trained a classifier based on *xlmroberta*, a multi-language model that is also suited for German. To this end we annotated around 1500 tweets as 0 (negative), 1 (positive) or 2 (neutral). There were several borderline cases for which we defined the following two coding specifications: 
@@ -72,10 +74,11 @@ To be able to classify the tweets as taking a positive or negative stand, or bei
 2. If someone is against the war in general, we labeled it as negative. 
 /example picture 
 
-
 Given limited ressources, we were not able to do a reliability test for the whole dataset, yet a brief interpersonal test showed that the annotation done by one of us was sufficiently reliable and comprehensible. 
 
 The annotated data was then split into one training and one testing dataset, which was then used to train and test the classifier. Since we ran into a cuda error when using google colab, we adjusted several things for (FELIX). 
+ 
+FELIX: Salience vom Bundestag
 
 # Results
 
