@@ -86,8 +86,13 @@ As a workaround, instead of using the amount of tweets with a positive stand tow
 
 *H2': The supply of weapons is precedented by an increase in salience of the topic on Twitter.*
 
-We start with testing the first hypothesis, stating that "the supply of weapons is precedented by an increase in salience of the topic in the Bundestag" (H1). To do so, we plot the graph indicating the salience of the topic in the German Bundestag on the timeline on the decisions. As we can see on the following graph, especially in the first months of the war the four out of six decisions taken by the government were indeed *precedented* by a peak in discourse. This would back 
+We start with testing the first hypothesis, stating that "the supply of weapons is precedented by an increase in salience of the topic in the Bundestag" (H1). To do so, we plot the graph indicating the salience of the topic in the German Bundestag on the timeline on the decisions. As we can see on the following graph, especially in the first months of the war four out of six decisions taken by the government were indeed *precedented* by a peak in discourse. This backs H1. However, especially for the decisions in January 2023 there was no peak before the decisions but the discussion rather coincided with the decisions (the peaks are on the grey bar indicating the decision) and consequently it is more likely that the discussions in the Bundestag were part of the decision process instead of influencing it. 
 
+To test hypothesis H2' we take the same approach as for the first hypothesis. The following graph shows a very similar picture as for Hypothesis 1. Four out of six decisions in 2022 were precedented by an increase of the salience on Twitter. This is especially visible for the ring exchange in May and the supply of flak tanks in June: here we see two very clear peaks of the discussion on Twitter. For the remaining decisions, including those in 2023 on the delivery of combat tanks (Leopard II), the salience peak coincided with the day of the decision, hence rather indicating a reaction than an independent increase in public pressure. 
+
+Finally we test Hypothesis 3 by comparing the peaks of the discourse on Twitter with those of the discourse on the Bundestag. While on the following graph 3 also no cristal clear picture arises, it seems safe to say that generally the Twitter discourse happend to peak before the discourse in the Bundestag, suggesting an influence of the discourse on Twitter's salience on the topics the Bundestag discusses, which is in line with the finding by Barbera et al (XX). 
+
+To summarize our results, we found some support for all our hypotheses, indicating that indeed there is a tendency of the decisions to be precedented by an increase in salience on both Twitter and 
 
 
 
