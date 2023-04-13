@@ -12,7 +12,7 @@ Team Members: ***Felix Walther***, candidate for the _Master in Public Policy_ i
 ***Research Question***: *How did the Twitter and parliamentary discourses about supplying weapons interact with each other and with the decisions to supply them?*
 
 # Background
-On 27 February 2022, only three days after the invasion of Ukraine by Russia, German Chancellor Olaf Scholz announced a major shift in Germany's security and defence policy, which he labelled as _Zeitenwende_, a historic turning point: _
+On 27 February 2022, only three days after the invasion of Ukraine by Russia, German Chancellor Olaf Scholz announced a major shift in Germany's security and defence policy, which he labelled as _Zeitenwende_, a historic turning point:
 
 _"We are living through a watershed era. And that means that the world afterwards will no longer be the same as the world before. The issue at the heart of this is whether power is allowed to prevail over the law. Whether we permit Putin to turn back the clock to the nineteenth century and the age of the great powers. Or whether we have it in us to keep warmongers like Putin in check. That requires strength of our own."_
 
