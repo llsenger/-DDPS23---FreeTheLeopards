@@ -17,8 +17,14 @@ On 27 February 2022, only three days after the invasion of Ukraine by Russia, Ge
 _"We are living through a watershed era. And that means that the world afterwards will no longer be the same as the world before. The issue at the heart of this is whether power is allowed to prevail over the law. Whether we permit Putin to turn back the clock to the nineteenth century and the age of the great powers. Or whether we have it in us to keep warmongers like Putin in check. That requires strength of our own."_ (Scholz, 2022)
 
 As a consequence, he announced massive investments in the German military. At the same time, he overthrew the decades-old German foreign policy rule, reading: *no armaments to war zones*, by sending 1,000 anti-tank weapons and 500 Stinger missiles to Ukraine. This was the starting point for an increasing engagement of the German government in terms of weapons supply to Ukraine, leading to the delivery of more serious weapons over time: in April, Germany sent flak tanks as defensive weapons, in Mai howitzers were delivered, and in June, Scholz announced the supply of the state-of-the-art air defense system Iris-T SLM. Despite this engagement, Scholz was criticized for being too hesitant in supporting Ukraine, too slow with his decisions on delivering weapons, and particularly combat tanks. The Chair of the Committee on European Union Affairs, Anton Hofreiter, for instance, already called for a supply of combat tanks in April 2022: 
-
-![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Hofreiter.png??raw=true)
+ <div align="center"> 
+ <b>Figure 1: Early call for tanks by Anton Hofreiter</b>
+ <br><br>
+</div> 
+ <div align="center"> 
+<img width="500" alt="Fig_1" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Hofreiter.png">
+ <br><br>
+</div>
 
 Similarly, Annalena Baerbock, the German Foreign Minister, publicly called for the supply of Leopard II combat tanks in mid-September (Pausch and Stark, 2023). These prominent figures were backed by an ongoing and rich discussion in the news, but importantly also on Twitter. Yet, it took until January 2023 that Scholz decided, after having convinced the US to supply tanks on their part, to free the way for German Leopard II tanks delivery to Ukraine. With this decision, the last taboo regarding supplying armaments to war zones was overcome and the major shift in the German Defence and Security Policy had come to a preliminary peak. 
 
@@ -52,9 +58,15 @@ To test our hypotheses, we used three main sources as data: renowned newspaper a
 
 <ins>**Weapons supply decisions by the German government**<ins>
 
-To identify the decisions with regard to the supply of different weapons, we performed a qualitative newspaper research, reconstructing the timeline of decisions from the beginning of the war until March 26, 2023. The data is depicted in the following graph. 
-
-![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/7ef2bde8d35140241f4eafc69c483e517814c95b/Pictures/Timegraph.png?raw=true)
+To identify the decisions with regard to the supply of different weapons, we performed a qualitative newspaper research, reconstructing the timeline of important decisions from the beginning of the war until March 26, 2023. We included only those deliveries that either noval in nature or extensively discussed, whereas the silent delivery of spare parts was, for example, not included. The data is depicted in the following graph. 
+ 
+ <b>Figure 2: Timeline of major German weapon delivieries to Ukraine </b>
+ <br><br>
+</div>
+  <div align="center"> 
+<img alt="Fig_2" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/7ef2bde8d35140241f4eafc69c483e517814c95b/Pictures/Timegraph.png">
+ <br><br>
+</div>
 
 <ins>**Twitter**<ins>
 
@@ -71,16 +83,25 @@ While the Bundestag offers a REST-API, it only allows for a full-text search on 
 To be able to classify the tweets as taking a positive or negative stand, or being neutral (news tweets for instance), we trained a classifier based on *xlmroberta*, a multi-language model that is also suited for German. To this end we annotated around 1500 tweets as 0 (negative), 1 (positive) or 2 (neutral). There were several borderline cases for which we defined the following two coding specifications: 
 
 1. If someone's opinion (whether positive or negative) is reported by a third party, we labeled it as neutral: 
-
  <div align="center"> 
-<img width="600" alt="Fig_2" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Zitat_Beispiel_neutral.png">
+  <b>Figure 3: Example Tweet: Reporting - "neutral" </b>
+ <br><br>
+</div>
+ <div align="center"> 
+<img width="700" alt="Fig_2" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Zitat_Beispiel_neutral.png">
  <br><br>
 </div>
 
 
 2. If someone is against the war in general, we labeled it as negative. 
-
-![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/82429056541162d2a39fc7a96a0195db6df61270/Pictures/Zitat_Beispiel_negativ.png?raw=true)
+  <div align="center"> 
+  <b>Figure 4: Example Tweet: General Opposition - "negative" </b>
+ <br><br>
+  </div>
+ <div align="center"> 
+<img width="700" alt="Fig_4" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/82429056541162d2a39fc7a96a0195db6df61270/Pictures/Zitat_Beispiel_negativ.png">
+ <br><br>
+</div>
 
 Given limited resources, we were not able to do a reliability test for the whole dataset, yet a brief interpersonal test showed that the annotation done by one of us was sufficiently reliable and comprehensible. 
 
@@ -115,10 +136,16 @@ As a workaround, instead of using the amount of tweets with a positive stand tow
 > *H2': The supply of weapons is precedented by an increase in the salience of the topic on Twitter.*
 
 To test our hypotheses, we plot the graphs indicating the salience of the topic in the German Bundestag (red line) and the salience of the topic on Twitter (blue line) on the timeline of the decisions (grey bars in the background). 
+ 
+   <b>Figure 5: Comparision of the Saliency of Discussion in Bundestag and Twitter with delivery decisions</b>
+ <br><br>
+ <div align="center"> 
+<img alt="Fig_5" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/0d5ace0a4000c1a0c57e521cd0f9c23adb4e6fad/Pictures/Graph%20Final.png">
+ <br><br>
+</div>
 
-![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/0d5ace0a4000c1a0c57e521cd0f9c23adb4e6fad/Pictures/Graph%20Final.png?raw=true)
-
-We start with testing the first hypothesis, which states that "the supply of weapons is preceded by an increase in salience of the topic in the Bundestag" (H1).  As we can see on the graph, especially in the first months of the war four out of six decisions taken by the government were indeed *precedented* by a peak in discourse in the Bundestag. This backs H1. However, especially for the decisions in January 2023 there was no peak before the decisions but the discussion rather coincided with the decisions (the peaks are on the grey bars) and consequently it is more likely that the discussions in the Bundestag were part of the decision process instead of influencing it. 
+We start with testing the first hypothesis, which states that "the supply of weapons is preceded by an increase in salience of the topic in the Bundestag" (H1).  As we can see on the graph, especially in the first months of the war four out of six decisions taken by the government were indeed *precedented* by a peak in discourse in the Bundestag. This backs H1. However, especially for the decisions in January 2023 no peak is visible before the decisions, but the discussion rather coincided with the decisions (the peaks are on the grey bars). Consequently, it is more likely that the discussions in the Bundestag were part of the decision process instead of influencing it.
+(Note: the peak visible in Summer 2022 was a result of the failed "Ringtausch" agreement with Poland, so that no actual delivery followed)
 
 To test hypothesis H2' we take the same approach as for the first hypothesis. The graph shows a very similar picture as for Hypothesis 1. Four out of six decisions in 2022 were precedented by an increase of the salience on Twitter. This is especially visible for the ring exchange in May and the supply of flak tanks in June: here we see two very clear peaks of the discussion on Twitter. For the remaining decisions, including those in 2023 on the delivery of combat tanks (Leopard II), the salience peak coincided with the day of the decision, hence rather indicating a reaction than an independent increase in public pressure. 
 
@@ -128,7 +155,7 @@ To summarize our results, despite imperfect patterns, we found some support for 
  
 # Limitations and Future Research
  
-The are a few limitations that have to be taken into account. First of all, the annotation of the data was not interpersonal. Second, our classifier did not work, independent of the models used, which was most likely due to a too low number of annotated tweets which in turn was caused by our limited resources. This resulted in a quite unspecific data, summarizing all discourse around weapons supply without distinguishing between positive and negative attitudes. That the major limitation of our project lies in the fact that our graphical approach does not allow for any causality claims: the correlation we found does not allow for deeper interpretation, such that we cannot claim that public discourse decisively influenced the decisions of the German government. A statistical investigation based on vector autoregression models, which would have been suitable in that regard, was not possible because of the low number of decisions. 
+The are a few limitations that have to be taken into account. First of all, the annotation of the data was not interpersonal. Second, our classifier did not work, independent of the models used, which was most likely due to a too low number of annotated tweets which in turn was caused by our limited resources. This resulted in a quite unspecific data, summarizing all discourse around weapons supply without distinguishing between positive and negative attitudes. The major limitation of our project lies in the fact that our graphical approach does not allow for any causality claims: the correlation we found does not allow for deeper interpretation, such that we cannot claim that public discourse decisively influenced the decisions of the German government. A statistical investigation based on vector autoregression models, which would have been suitable in that regard, was not possible due to the low number of decisions. 
 
 Next to addressing these limitations, there are several further paths for future research that might be worth exploring. 
 
