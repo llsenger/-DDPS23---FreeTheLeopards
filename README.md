@@ -72,7 +72,10 @@ To be able to classify the tweets as taking a positive or negative stand, or bei
 
 1. If someone's opinion (whether positive or negative) is reported by a third party, we labeled it as neutral: 
 
-![alt text](https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Zitat_Beispiel_neutral.png?raw=true)
+ <div align="center"> 
+<img width="600" alt="Fig_2" src="https://github.com/llsenger/-DDPS23---FreeTheLeopards/blob/1a6433ebb18898fa2f9e840e54a4fcc3bc2128bb/Pictures/Zitat_Beispiel_neutral.png">
+ <br><br>
+</div>
 
 
 2. If someone is against the war in general, we labeled it as negative. 
